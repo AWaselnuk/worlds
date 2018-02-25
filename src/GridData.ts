@@ -4,7 +4,7 @@ export type Grid = Array<Row>;
 type Row = Array<Cell>;
 type Cell = number;
 
-export class GridData {
+export default class GridData {
   seed: string;
   size: number;
   random: any; // TODO: figure out how to type this

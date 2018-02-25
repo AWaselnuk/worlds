@@ -1,9 +1,7 @@
 import * as React from 'react';
-import { create as randomSeed } from 'random-seed';
 import { flatten } from 'lodash';
-import Cell from './Cell';
-import { valueToType as valueToCellColor } from './CellType';
-import { GridData, Grid as GridT } from './GridData';
+import Cell, { Props as CellProps } from './Cell';
+import GridData, { Grid as GridT } from './GridData';
 
 interface Props {
   seed: string;
@@ -13,24 +11,22 @@ interface Props {
 interface State {}
 
 export default class Grid extends React.PureComponent<Props, State> {
-  private seed: string;
-  private random: any; // TODO: figure out how to type this
   private data: GridT;
 
   constructor (props: Props) {
     super(props);
-
     const { seed, size } = props;
-    this.seed = seed;
     this.data = new GridData(seed, size).data;
     console.info(this.data);
   }
 
   render () {
+    const { seed } = this.props;
+
     return (
       <section className="grid">
         <p>
-          Seed: {this.seed}
+          Seed: {seed}
         </p>
         <div>
           {flatten(this.data).map((value, i) => Grid.Cell(value, i))}
@@ -39,8 +35,7 @@ export default class Grid extends React.PureComponent<Props, State> {
     );
   }
 
-  private static Cell (value: number, index: number): JSX.Element {
-    const color = valueToCellColor(value);
-    return <Cell key={index} color={color} size={40} value={value} />;
+  private static Cell (value: CellProps['value'], index: number): JSX.Element {
+    return <Cell key={index} size={40} value={value} />;
   }
 }
