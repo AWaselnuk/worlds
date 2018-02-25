@@ -13,6 +13,7 @@ type RowData = Array<CellData>;
 type GridData = Array<RowData>;
 
 export default class Grid extends React.PureComponent<Props, State> {
+  private seed: string;
   private random: any; // TODO: figure out how to type this
   private data: GridData;
 
@@ -20,15 +21,21 @@ export default class Grid extends React.PureComponent<Props, State> {
     super(props);
 
     const { seed, size } = props;
+    this.seed = seed;
     this.random = randomSeed(seed);
     this.data = this.generateGridData(size);
   }
 
   render () {
     return (
-      <pre><code>
-        {JSON.stringify(this.data, null, 2)}
-      </code></pre>
+      <section className="grid">
+        <p>
+          Seed: {this.seed}
+        </p>
+        <pre><code>
+          {JSON.stringify(this.data, null, 2)}
+        </code></pre>
+      </section>
     );
   }
 
