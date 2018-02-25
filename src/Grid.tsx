@@ -1,30 +1,44 @@
 import * as React from 'react';
+import { create as randomSeed } from 'random-seed';
 
-interface GridProps {
+interface Props {
+  seed: string;
   size: number;
 }
+
+interface State {}
 
 type CellData = number;
 type RowData = Array<CellData>;
 type GridData = Array<RowData>;
 
-export function Grid (props: GridProps) {
-  const { size } = props;
-  const cells = generateGridData(size);
+export default class Grid extends React.PureComponent<Props, State> {
+  private random: any; // TODO: figure out how to type this
+  private data: GridData;
 
-  return (
-    <pre><code>
-{JSON.stringify(cells, null, 2)}
-    </code></pre>
-  );
-}
+  constructor (props: Props) {
+    super(props);
 
-function generateGridData (size: number): GridData {
-  const grid = new Array(size).fill(size);
-  return grid.map(generateRowData);
-}
+    const { seed, size } = props;
+    this.random = randomSeed(seed);
+    this.data = this.generateGridData(size);
+  }
 
-function generateRowData (size: number): RowData {
-  const row = new Array(size).fill(0);
-  return row.map((_) => Math.random());
+  render () {
+    return (
+      <pre><code>
+        {JSON.stringify(this.data, null, 2)}
+      </code></pre>
+    );
+  }
+
+  private generateGridData (size: number): GridData {
+    const grid = new Array(size).fill(size);
+    return grid.map(this.generateRowData.bind(this));
+  }
+
+  private generateRowData (size: number): RowData {
+    const row = new Array(size).fill(0);
+    return row.map((_) => this.random.range(100));
+  }
 }

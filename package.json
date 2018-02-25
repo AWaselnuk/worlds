@@ -11,9 +11,11 @@
     "watch": "parcel watch src/index.html"
   },
   "dependencies": {
+    "@types/random-seed": "^0.3.3",
     "@types/react": "^16.0.38",
     "@types/react-dom": "^16.0.4",
     "parcel-bundler": "^1.6.2",
+    "random-seed": "^0.3.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "typescript": "^2.7.2"
