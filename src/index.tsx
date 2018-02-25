@@ -1,12 +1,13 @@
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
-import { CellType } from './CellType';
-import { Cell } from './Cell';
+import { Grid } from './Grid';
 import './app.scss';
 
-const App = (props) => {
+type AppProps = undefined;
+
+const App = (props: AppProps) => {
   return (
-    <Cell size={40} type={CellType.Rock} />
+    <Grid size={20} />
   );
 };
 
