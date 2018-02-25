@@ -1,5 +1,8 @@
 import * as React from 'react';
 import { create as randomSeed } from 'random-seed';
+import { flatten } from 'lodash';
+import Cell from './Cell';
+import { valueToType as valueToCellColor } from './CellType';
 
 interface Props {
   seed: string;
@@ -24,6 +27,7 @@ export default class Grid extends React.PureComponent<Props, State> {
     this.seed = seed;
     this.random = randomSeed(seed);
     this.data = this.generateGridData(size);
+    console.info(this.data);
   }
 
   render () {
@@ -32,11 +36,16 @@ export default class Grid extends React.PureComponent<Props, State> {
         <p>
           Seed: {this.seed}
         </p>
-        <pre><code>
-          {JSON.stringify(this.data, null, 2)}
-        </code></pre>
+        <div>
+          {flatten(this.data).map((value, i) => Grid.Cell(value, i))}
+        </div>
       </section>
     );
+  }
+
+  private static Cell (value: CellData, index: number): JSX.Element {
+    const color = valueToCellColor(value);
+    return <Cell key={index} color={color} size={40} value={value} />;
   }
 
   private generateGridData (size: number): GridData {
@@ -46,6 +55,6 @@ export default class Grid extends React.PureComponent<Props, State> {
 
   private generateRowData (size: number): RowData {
     const row = new Array(size).fill(0);
-    return row.map((_) => this.random.range(100));
+    return row.map((_) => this.random.range(10));
   }
 }

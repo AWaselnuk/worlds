@@ -1,24 +1,25 @@
 import * as React from 'react';
-import { CellType } from './CellType';
 
-interface CellProps {
-  type: CellType;
+interface Props {
+  color: string;
   size: number;
+  value?: number;
 }
 
-export function Cell (props: CellProps) {
-  const { type, size } = props;
+export default function Cell (props: Props) {
+  const { color, size, value } = props;
   const width = size;
   const height = size;
   const cellStyle = {
-    backgroundColor: type,
+    backgroundColor: color,
     width: width,
     height: height,
+    lineHeight: `${height}px`
   };
 
   return (
-    <div style={cellStyle}>
-
+    <div className='cell' style={cellStyle}>
+      {value}
     </div>
   )
 }
