@@ -1,9 +1,12 @@
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
+import { CellType } from './CellType';
+import { Cell } from './Cell';
+import './app.scss';
 
 const App = (props) => {
   return (
-    <h1>Hello World</h1>
+    <Cell size={40} type={CellType.Rock} />
   );
 };
 

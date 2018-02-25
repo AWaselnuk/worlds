@@ -1,0 +1,12 @@
+$sea-green: #c8ffd1;
+$white: #fffbf2;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: $white;
+  margin: 0;
+}
