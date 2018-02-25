@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Grid } from './Grid';
 import './app.scss';
 
-type AppProps = undefined;
+interface AppProps {};
 
 const App = (props: AppProps) => {
   return (
