@@ -22,12 +22,12 @@ h1, h2, h3, h4, h5, h6, p {
 .grid {
   position: relative;
   margin-top: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(20, 40px); // TODO move into JS land
 }
 
 .cell {
-  position: absolute;
-  top: 0;
-  left: 0;
   text-align: center;
   background-color: #999;
 }

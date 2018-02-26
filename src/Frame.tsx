@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-interface Props {};
+interface Props {
+  children: any
+};
 
 export default function Frame (props: Props) {
   return (
