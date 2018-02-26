@@ -25,9 +25,6 @@ export default class Grid extends React.PureComponent<Props, State> {
 
     return (
       <section className="grid">
-        <p>
-          Seed: {seed}
-        </p>
         <div>
           {flatten(this.data).map((value, i) => Grid.Cell(value, i))}
         </div>

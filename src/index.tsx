@@ -1,13 +1,21 @@
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
 import Grid from './Grid';
+import Frame from './Frame';
 import './app.scss';
 
-interface AppProps {};
+interface Props {};
 
-const App = (props: AppProps) => {
+const App = (props: Props) => {
+  const seed = 'Ateam';
+
   return (
-    <Grid seed="Ateam" size={20} />
+    <Frame>
+      <p>
+        Seed: {seed}
+      </p>
+      <Grid seed={seed} size={20} />
+    </Frame>
   );
 };
 
