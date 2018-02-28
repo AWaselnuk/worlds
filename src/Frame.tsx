@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 interface Props {
-  children: any
+  children?: React.ReactNode
 };
 
 export default function Frame (props: Props) {
