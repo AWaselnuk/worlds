@@ -15,10 +15,14 @@ interface Props {
 const App = (props: Props) => {
   return (
     <Frame>
-      <p>
-        Seed: {props.seed}
-      </p>
-      <Grid seed={seed} size={20} cellSize={60} gap={3} />
+      <Frame.Sidebar>
+        <p className="text-bold">Seed</p>
+        <p>{props.seed}</p>
+      </Frame.Sidebar>
+
+      <Frame.Content>
+        <Grid seed={seed} size={20} cellSize={60} gap={3} />
+      </Frame.Content>
     </Frame>
   );
 };

@@ -4,10 +4,30 @@ interface Props {
   children?: React.ReactNode
 };
 
-export default function Frame (props: Props) {
-  return (
-    <section className="frame">
-      {props.children}
-    </section>
-  )
+interface State {}
+
+export default class Frame extends React.PureComponent<Props, State> {
+  render () {
+    return (
+      <section className="frame">
+        {this.props.children}
+      </section>
+    );
+  }
+
+  static Sidebar (props: Props): JSX.Element {
+    return (
+      <section className="frame-sidebar">
+        {props.children}
+      </section>
+    )
+  }
+
+  static Content (props: Props): JSX.Element {
+    return (
+      <section className="frame-content">
+        {props.children}
+      </section>
+    )
+  }
 }

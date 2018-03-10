@@ -1,4 +1,7 @@
 $white: #fffbf2;
+$spacing: 10px;
+$spacing-double: $spacing * 2;
+$spacing-half: $spacing / 2;
 
 * {
   box-sizing: border-box;
@@ -9,19 +12,43 @@ body {
   background-color: $white;
   margin: 0;
   font-family: 'Consolas', monospace;
+  font-size: 10px;
 }
 
 body {
-  padding: 10px;
+  padding: $spacing-double;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+p {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.frame {
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.frame-sidebar {
+  flex: 0 0 400px;
+  padding-right: $spacing-half;
+}
+
+.frame-content {
+  flex: 1 0 0;
+  padding-left: $spacing-half;
+}
+
 .grid {
   position: relative;
-  margin-top: 10px;
   display: grid;
 }
 
