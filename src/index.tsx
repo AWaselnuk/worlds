@@ -14,7 +14,7 @@ const App = (props: Props) => {
       <p>
         Seed: {seed}
       </p>
-      <Grid seed={seed} size={20} />
+      <Grid seed={seed} size={20} cellSize={60} gap={3} />
     </Frame>
   );
 };
