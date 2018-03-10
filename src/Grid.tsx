@@ -13,17 +13,9 @@ interface Props {
 interface State {}
 
 export default class Grid extends React.PureComponent<Props, State> {
-  private data: GridT;
-
-  constructor (props: Props) {
-    super(props);
-    const { seed, size } = props;
-    this.data = new GridData(seed, size).data;
-    console.info(this.data);
-  }
-
   render () {
     const { seed, size, gap, cellSize } = this.props;
+    const { data } = new GridData(seed, size);
 
     const style = {
       gridGap: gap,
@@ -32,7 +24,7 @@ export default class Grid extends React.PureComponent<Props, State> {
 
     return (
       <section className="grid" style={style}>
-        {flatten(this.data).map((value, i) => Grid.Cell(value, cellSize, i))}
+        {flatten(data).map((value, i) => Grid.Cell(value, cellSize, i))}
       </section>
     );
   }

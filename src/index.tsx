@@ -8,38 +8,64 @@ import './app.scss';
 
 type seed = string;
 
-interface Props {
+interface Props {};
+
+interface State {
   seed: seed;
-};
-
-const App = (props: Props) => {
-  return (
-    <Frame>
-      <Frame.Sidebar>
-        <p className="text-bold">Seed</p>
-        <p>{props.seed}</p>
-      </Frame.Sidebar>
-
-      <Frame.Content>
-        <Grid seed={seed} size={20} cellSize={60} gap={3} />
-      </Frame.Content>
-    </Frame>
-  );
-};
-
-function getOrSetSeedFromURL(queryString: string): seed {
-  const seedParam = parseQueryString(queryString).seed;
-  let { seed } = parseQueryString(queryString);
-  if (!seed) {
-    seed = randomString(30);
-    window.history.replaceState({}, '', '?' + stringifyQueryString({seed}));
-  }
-  return seed;
 }
 
-const seed = getOrSetSeedFromURL(window.location.search);
+class App extends React.Component<Props, State> {
+
+  constructor (props: Props) {
+    super(props);
+    this.state = {
+      seed: getSeedFromURL(window.location.search)
+    };
+
+    this.updateGrid = this.updateGrid.bind(this);
+    this.updateURL = this.updateURL.bind(this);
+  }
+
+  render () {
+    const { seed } = this.state;
+
+    return (
+      <Frame>
+        <Frame.Sidebar>
+          <p className="text-bold">Seed</p>
+          <p>{seed}</p>
+
+          <button className="btn" onClick={this.updateGrid}>Generate</button>
+        </Frame.Sidebar>
+
+        <Frame.Content>
+          <Grid seed={seed} size={25} cellSize={40} gap={3} />
+        </Frame.Content>
+      </Frame>
+    );
+  }
+
+  updateGrid () {
+    this.setState(
+      {seed: randomString(30)},
+      this.updateURL
+    );
+  }
+
+  updateURL () {
+    const { seed } = this.state;
+    window.history.replaceState({}, '', '?' + stringifyQueryString({seed}));
+  }
+};
+
+function getSeedFromURL(queryString: string): seed {
+  const seedParam = parseQueryString(queryString).seed;
+  const { seed } = parseQueryString(queryString);
+
+  return seed || randomString(30);
+}
 
 ReactDOM.render(
-  <App seed={seed} />,
+  <App />,
   document.getElementById('app')
 );
