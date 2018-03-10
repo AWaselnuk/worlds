@@ -1,0 +1,116 @@
+[
+  {
+    "food": "Mushroom Soup",
+    "beverage": "Dark Amber Ale",
+    "description": "A favourite with the locals.",
+    "locales": "swamp, major city"
+  },
+  {
+    "food": "Roast Pheasant",
+    "beverage": "Elfin Wine",
+    "description": "The delicate flavor of the wine complements the pheasant.",
+    "locales": "major city"
+  },
+  {
+    "food": "Tentacle Stew",
+    "beverage": "Dark Rum",
+    "description": "It's delicious if you close your eyes.",
+    "locales": "swamp, port city"
+  },
+  {
+    "food": "Bread & Cheese",
+    "beverage": "Ale",
+    "description": "A tavern staple.",
+    "locales": "all"
+  },
+  {
+    "food": "Pepper Topped Flatbread",
+    "beverage": "Red Wine",
+    "description": "The red peppers on the flatbread are roasted.",
+    "locales": "major city, port city, town, mountains, plains, swamp"
+  },
+  {
+    "food": "Roast Beef",
+    "beverage": "Red Wine",
+    "description": "It's a bit overcooked.",
+    "locales": "all"
+  },
+  {
+    "food": "Goat Feet",
+    "beverage": "Gin",
+    "description": "Who would think to serve this?",
+    "locales": "all"
+  },
+  {
+    "food": "Mutton Shank",
+    "beverage": "Griffon Horn Beer",
+    "description": "The beer is particularly good.",
+    "locales": "major city, port city, town, mountains, plains"
+  },
+  {
+    "food": "Cheddar Frittata",
+    "beverage": "Milk",
+    "description": "There is parsely on top.",
+    "locales": "all"
+  },
+  {
+    "food": "Frozen Banana",
+    "beverage": "Bumbleberry Smoothie",
+    "description": "Desert before dinner. Yes.",
+    "locales": "frozen tundra"
+  },
+  {
+    "food": "Cedar Smoked Salmon",
+    "beverage": "White Wine",
+    "description": "A classic pairing.",
+    "locales": "port city, major city, town, mountains"
+  },
+  {
+    "food": "Ogre Eyeballs",
+    "beverage": "Red Wine",
+    "description": "A delicacy!",
+    "locales": "swamp, mountains"
+  },
+  {
+    "food": "Rock Stew",
+    "beverage": "Water",
+    "description": "It's not actually rocks ...",
+    "locales": "all"
+  },
+  {
+    "food": "Meatballs on rice",
+    "beverage": "Red Wine",
+    "description": "Why no spaghetti?",
+    "locales": "all"
+  },
+  {
+    "food": "Fried Hawk Wings",
+    "beverage": "Dwarven Stout",
+    "description": "Addictive!",
+    "locales": "major city, mountains, port city"
+  },
+  {
+    "food": "Fried Potato Crisps",
+    "beverage": "Dwarven Stout",
+    "description": "Like mom used to make.",
+    "locales": "major city, mountains, port city"
+  },
+  {
+    "food": "Fried Fish Sticks",
+    "beverage": "Dwarven Stout",
+    "description": "Fresh and tasty.",
+    "locales": "major city, mountains, port city"
+  },
+  {
+    "food": "Fried Pickles",
+    "beverage": "Dwarven Stout",
+    "description": "So salty but sooo good!",
+    "locales": "major city, mountains, port city"
+  },
+  {
+    "food": "Jasmine Infused Oxygen",
+    "beverage": "Elfin Liqueur",
+    "description": "For the true epicurean.",
+    "locales": "major city"
+  }
+]

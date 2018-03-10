@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Urgaad",
+    "race": "troll"
+  },
+  {
+    "name": "Gurlad",
+    "race": "troll"
+  },
+  {
+    "name": "Rokduk",
+    "race": "troll"
+  },
+  {
+    "name": "Rada",
+    "race": "troll"
+  },
+  {
+    "name": "Pandragon",
+    "race": "human"
+  },
+  {
+    "name": "Darkeyes",
+    "race": "human"
+  },
+  {
+    "name": "Morning",
+    "race": "human"
+  },
+  {
+    "name": "Eversong",
+    "race": "human"
+  },
+  {
+    "name": "North",
+    "race": "human"
+  },
+  {
+    "name": "Hawking",
+    "race": "human"
+  },
+  {
+    "name": "Hawkwing",
+    "race": "human"
+  },
+  {
+    "name": "Kardashian",
+    "race": "human"
+  },
+  {
+    "name": "Baggins",
+    "race": "halfling"
+  },
+  {
+    "name": "Hills",
+    "race": "halfling"
+  },
+  {
+    "name": "Meadows",
+    "race": "halfling"
+  },
+  {
+    "name": "Haggins",
+    "race": "halfling"
+  },
+  {
+    "name": "Oaksmith",
+    "race": "halfling"
+  },
+  {
+    "name": "Ash",
+    "race": "elf"
+  },
+  {
+    "name": "Brightcloak",
+    "race": "elf"
+  },
+  {
+    "name": "Haevaul",
+    "race": "elf"
+  },
+  {
+    "name": "Ildroun",
+    "race": "elf"
+  },
+  {
+    "name": "Irian",
+    "race": "elf"
+  },
+  {
+    "name": "Morningstar",
+    "race": "elf"
+  },
+  {
+    "name": "Stonefist",
+    "race": "dwarf"
+  },
+  {
+    "name": "Rungortek",
+    "race": "dwarf"
+  },
+  {
+    "name": "Mordoruk",
+    "race": "dwarf"
+  },
+  {
+    "name": "Thhalode",
+    "race": "dwarf"
+  },
+  {
+    "name": "Slack",
+    "race": "human"
+  },
+  {
+    "name": "Stormhide",
+    "race": "dwarf"
+  },
+  {
+    "name": "Twilightbranch",
+    "race": "dwarf"
+  },
+  {
+    "name": "Caskstone",
+    "race": "dwarf"
+  },
+  {
+    "name": "Smeltrock",
+    "race": "dwarf"
+  },
+  {
+    "name": "Bronzefury",
+    "race": "dwarf"
+  },
+  {
+    "name": "Bonefeet",
+    "race": "dwarf"
+  },
+  {
+    "name": "Stonefeet",
+    "race": "dwarf"
+  },
+  {
+    "name": "Stonefoot",
+    "race": "dwarf"
+  },
+  {
+    "name": "Steelbrand",
+    "race": "dwarf"
+  },
+  {
+    "name": "Caskgrip",
+    "race": "dwarf"
+  },
+  {
+    "name": "Graniteaxe",
+    "race": "dwarf"
+  },
+  {
+    "name": "Opalforge",
+    "race": "dwarf"
+  },
+  {
+    "name": "Thunderstone",
+    "race": "dwarf"
+  },
+  {
+    "name": "Jadefinger",
+    "race": "dwarf"
+  },
+  {
+    "name": "Grumblebringer",
+    "race": "dwarf"
+  },
+  {
+    "name": "Mudheart",
+    "race": "dwarf"
+  },
+  {
+    "name": "Goldhide",
+    "race": "dwarf"
+  },
+  {
+    "name": "Plateface",
+    "race": "dwarf"
+  },
+  {
+    "name": "Windbringer",
+    "race": "dwarf"
+  },
+  {
+    "name": "Warmaster",
+    "race": "dwarf"
+  },
+  {
+    "name": "Bouldermack",
+    "race": "dwarf"
+  },
+  {
+    "name": "Darkstone",
+    "race": "dwarf"
+  },
+  {
+    "name": "Earthbane",
+    "race": "dwarf"
+  },
+  {
+    "name": "Earthbinder",
+    "race": "dwarf"
+  },
+  {
+    "name": "Greygut",
+    "race": "dwarf"
+  },
+  {
+    "name": "Ashtank",
+    "race": "dwarf"
+  },
+  {
+    "name": "Leatherbuckle",
+    "race": "dwarf"
+  },
+  {
+    "name": "Coppershoulder",
+    "race": "dwarf"
+  },
+  {
+    "name": "Coppergrip",
+    "race": "dwarf"
+  },
+  {
+    "name": "Chainbelly",
+    "race": "dwarf"
+  },
+  {
+    "name": "Snowgrog",
+    "race": "dwarf"
+  },
+  {
+    "name": "Forgebrewer",
+    "race": "dwarf"
+  },
+  {
+    "name": "Coinfury",
+    "race": "dwarf"
+  },
+  {
+    "name": "Leadspine",
+    "race": "dwarf"
+  },
+  {
+    "name": "Spiritlash",
+    "race": "human"
+  },
+  {
+    "name": "Heartorb",
+    "race": "human"
+  },
+  {
+    "name": "Riverfall",
+    "race": "elf"
+  },
+  {
+    "name": "Treesorrow",
+    "race": "elf"
+  },
+  {
+    "name": "Brightglory",
+    "race": "human"
+  },
+  {
+    "name": "Mistrider",
+    "race": "human"
+  },
+  {
+    "name": "Mistrider",
+    "race": "elf"
+  },
+  {
+    "name": "Deeplight",
+    "race": "human"
+  },
+  {
+    "name": "Hawkdancer",
+    "race": "human"
+  },
+  {
+    "name": "Woodtide",
+    "race": "elf"
+  },
+  {
+    "name": "Woodtide",
+    "race": "human"
+  },
+  {
+    "name": "Wolfbane",
+    "race": "human"
+  },
+  {
+    "name": "Strongcrusher",
+    "race": "human"
+  },
+  {
+    "name": "Loster",
+    "race": "human"
+  },
+  {
+    "name": "Avila",
+    "race": "human"
+  },
+  {
+    "name": "Carmel",
+    "race": "human"
+  },
+  {
+    "name": "Wyler",
+    "race": "human"
+  },
+  {
+    "name": "Venutrini",
+    "race": "human"
+  },
+  {
+    "name": "Hupp",
+    "race": "halfling"
+  },
+  {
+    "name": "Raini",
+    "race": "halfling"
+  },
+  {
+    "name": "Singh",
+    "race": "halfling"
+  },
+  {
+    "name": "Hopkins",
+    "race": "halfling"
+  },
+  {
+    "name": "Kiplagat",
+    "race": "troll"
+  },
+  {
+    "name": "Fields",
+    "race": "halfling"
+  },
+  {
+    "name": "Fields",
+    "race": "human"
+  },
+  {
+    "name": "Seppi",
+    "race": "human"
+  },
+  {
+    "name": "Seppi",
+    "race": "halfling"
+  },
+  {
+    "name": "Riaz",
+    "race": "human"
+  },
+  {
+    "name": "Mencarah",
+    "race": "human"
+  },
+  {
+    "name": "Ahti",
+    "race": "elf"
+  },
+  {
+    "name": "Surapis",
+    "race": "human"
+  },
+  {
+    "name": "Mosi",
+    "race": "halfling"
+  },
+  {
+    "name": "Assim",
+    "race": "human"
+  },
+  {
+    "name": "Anzeti",
+    "race": "human"
+  },
+  {
+    "name": "Thestor",
+    "race": "human"
+  },
+  {
+    "name": "Thestor",
+    "race": "halfling"
+  },
+  {
+    "name": "Yedorus",
+    "race": "human"
+  },
+  {
+    "name": "Nozzlenuck",
+    "race": "human"
+  }
+]

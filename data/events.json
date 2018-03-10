@@ -1,0 +1,179 @@
+[
+  {
+    "description":
+      "Every day, just after midnight, a cloaked figure sits at the table in the corner. Many believe that he was once the infamous Pirate Roberts. The last five people to speak to him have all died under suspicious circumstances. No one has the nerve to approach him, but tonight someone will be forced to.",
+    "interaction": "kill each other fighting over a bottle of rum",
+    "locales": "port city, swamp",
+    "moods": "horrifying, seedy"
+  },
+  {
+    "description":
+      "Beside a roaring fireplace, a court bard sings the graces of the queen. He has information you are looking for.",
+    "interaction":
+      "are clearly trying to be discreet about their mutual affection",
+    "locales": "port city, major city",
+    "moods": "comfortable"
+  },
+  {
+    "description":
+      "Your party walks in the door. You turn to your friend beside you but you forget what you were going to say. What's worse is that you also forget your name...",
+    "interaction": "are wandering about aimlessly",
+    "locales": "all",
+    "moods": "weird, horrifying"
+  },
+  {
+    "description":
+      "Just as you walk through the door, a monkey steals your hat. Damned if you didn't pay 10 gold for that hat!",
+    "interaction": "share a pipe of some strange smelling leaf",
+    "locales": "swamp",
+    "moods": "boisterous, funny, exotic"
+  },
+  {
+    "description":
+      "You enter the tavern and find Adras the gnome. Whom you believed dead.",
+    "interaction": "are having a heated conversation",
+    "locales": "all",
+    "moods": "horrifying, weird, comfortable, boisterous, funny, seedy, exotic"
+  },
+  {
+    "description":
+      "You walk in to the warmth of the tavern and shake the rain from your cloak. As the smell of roast chicken hits your nostrils, you reach for your purse and... You walk in to the warmth of the tavern and shake the rain from your cloak. As the smell of roast chicken hits your nostrils, you reach for your purse and... You walk in to the warmth of the tavern and shake the rain from your cloak. As the smell of roast chicken hits your nostrils, you reach for your purse and... you're starting to feel like you've done all this before...",
+    "interaction":
+      "have been playing the same hand of cards over and over again",
+    "locales": "all",
+    "moods": "weird, horrifying"
+  },
+  {
+    "description":
+      "While you're enjoying a bowl of hot soup after a long day's ride, a suspicious figure drops a wrapped parcel on your table and then hurries out the door.",
+    "interaction": "have been harassing the bar wench all evening",
+    "locales": "frozen tundra, plains",
+    "moods": "seedy, weird, comfortable"
+  },
+  {
+    "description":
+      "Your stomach is full of porridge and you're ready to be on your way. You walk out the door and head to the stable only to find your horse dead of decidedly unnatural causes. ",
+    "interaction": "are playing a card game you've never seen before",
+    "locales": "swamp, desert",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "description":
+      "As you conclude you business in the privy, you notice some parchment between the floorboards. You pull it and realize it's a map.",
+    "interaction": "appear to be frantically searching for something they lost",
+    "locales": "port  city, major city, town",
+    "moods": "funny, boisterous, comfortable"
+  },
+  {
+    "description":
+      "You order some mead and start reading through the stack of parchment you were given by the mayor. As you read the first few words, your heart stops and sweat begins to pour down your face. ",
+    "interaction": "have been passed out on the table for hours",
+    "locales": "major city, port city, town",
+    "moods": "weird, horrifying, seedy"
+  },
+  {
+    "description":
+      "You smile at the handsome barman as he pours your ale. Just as you think tonight will turn into a good one, he lunges at you with his dagger!",
+    "interaction": "looked directly at you as you walked in.",
+    "locales": "all",
+    "moods": "comfortable, seedy, boisterous"
+  },
+  {
+    "description":
+      "You extinguish the lantern in your room and settle into bed. Just as you are getting comfortable the lantern flies straight at you! You leap out of bed and notice the chair starting to wobble...",
+    "interaction": "have been passed out on the table for hours",
+    "locales": "all",
+    "moods": "wierd, exotic, funny, seedy"
+  },
+  {
+    "description":
+      "The barmaid serves your bread, soup and ale and you tuck in immediately. You start by tearing off a hunk of bread and devouring it. It is still warm from the oven. As you reach for you ale, your companion points in horror: the back of your hand is erupting in boils! The barmaid is watching, grinning.",
+    "interaction": "seem to be asleep.",
+    "locales": "swamp, mountains",
+    "moods": "horrifying"
+  },
+  {
+    "description":
+      "You step up to the bar to order a drink but the propietor glares at you with anger and refuses you service. You swear you've never met him before.",
+    "interaction": "seem to be talking about you.",
+    "locales": "all",
+    "moods": "comfortable, seedy, boisterous, exotic, weird"
+  },
+  {
+    "description":
+      "With a final yawn, you fall into a restful slumber in your comfortable bed in the inn. When you wake up, you notice the smell of the sea and the rocking of waves. As you awaken you notice your hands are tied and you are on a boat.",
+    "interaction": "are haggling over something.",
+    "locales": "port city",
+    "moods": "seedy, horrifying, comfortable, weird"
+  },
+  {
+    "description":
+      "The good looking stranger sitting next to you flashes you a beaming smile. You turn to your companion to tell him to leave you be for a bit when you feel a cold blade against your leg, and the attractive stranger whispering in your ear, 'Act normal, and come with me...' ",
+    "interaction": "kill each other fighting over a bottle of rum",
+    "locales": "all",
+    "moods": "weird, seedy, horrifying, exotic"
+  },
+  {
+    "description":
+      "You return to the inn for lunch when the barmaid tells you that your son is waiting in your room for you. But you don't have a son...",
+    "interaction": "are on their third helping of potatoes",
+    "locales": "all",
+    "moods": "weird, horrifying, seedy, funny"
+  },
+  {
+    "description":
+      "You're relieved when you see the sign for the inn pointing you down the left-hand lane. You turn left and see a sign for the inn pointing you down a another left-hand lane. And again. And again. And again. ",
+    "interaction": "told you that they'd never heard of this inn",
+    "locales": "mountains, swamp, desert, frozen tundra",
+    "moods": "weird, exotic, horrifying, funny"
+  },
+  {
+    "description":
+      "You're feeling pretty good after winning your third round of Hunter's Hold'em. A cloaked figure takes the seat across from you. You ask what he wants to wager and he answers 'Your voice.' You chuckle, and shuffle the deck. ",
+    "interaction":
+      "are trying to haggle with the innkeep over the price of a room",
+    "locales": "major city, port city, town",
+    "moods": "boisterous, funny, seedy"
+  },
+  {
+    "description": "You return to your room and it's been ransacked!",
+    "interaction": "are flirting with the barmaid",
+    "locales": "all",
+    "moods": "all"
+  },
+  {
+    "description":
+      "You walk into the tavern and immediately notice a large portrait of you hanging over the hearth.",
+    "interaction": "are staring at you, mouths hanging open",
+    "locales": "major city, port city, town",
+    "moods": "weird, funny, comfortable, boisterous"
+  },
+  {
+    "description":
+      "You wake up to the innkeeper banging on your door screaming for help. You fling open your door to find the entire inn overrun with cats!",
+    "interaction": "have a small box on the table between them",
+    "locales": "major city, port city, town",
+    "moods": "weird, funny, comfortable, boisterous"
+  },
+  {
+    "description":
+      "As you drink your wine, you stare out the window into the rain. There appears to be a chapel with a cemetary right next door. Suddenly a flash of lightning illuminates the graveyard. You see, clear as day, a tombstone with your name on it.",
+    "interaction": "are making a toast",
+    "locales": "major city, port city, town, mountains",
+    "moods": "weird, horrifying"
+  },
+  {
+    "description":
+      "As you finish your meal and stand up, someone clubs you over the head with a bottle.",
+    "interaction": "are threatening each other",
+    "locales": "all",
+    "moods": "comfortable, funny, boisterous, seedy"
+  },
+  {
+    "description":
+      "You wake up from a well-deserved rest and go out to the common room for breakfast. Someone introduces themselves and is awaiting a response... but you seem to have forgotten who you are.",
+    "interaction": null,
+    "locales": null,
+    "moods": null
+  }
+]

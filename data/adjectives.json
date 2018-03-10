@@ -1,0 +1,874 @@
+[
+  {
+    "adjective": "adept",
+    "moods": "comfortable, exotic"
+  },
+  {
+    "adjective": "adventurous",
+    "moods": "boisterous"
+  },
+  {
+    "adjective": "alarming",
+    "moods": "seedy, funny"
+  },
+  {
+    "adjective": "ample",
+    "moods": "boisterous, comfortable"
+  },
+  {
+    "adjective": "ancient",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "appalling",
+    "moods": "seedy, horrifying, funny"
+  },
+  {
+    "adjective": "assuring",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "avaricious",
+    "moods": "seedy, funny"
+  },
+  {
+    "adjective": "black",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "blushing",
+    "moods": "funny"
+  },
+  {
+    "adjective": "broken",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "bulbous",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "buoyant",
+    "moods": "funny, comfortable"
+  },
+  {
+    "adjective": "burly",
+    "moods": "funny"
+  },
+  {
+    "adjective": "calming",
+    "moods": "comfortable, exotic"
+  },
+  {
+    "adjective": "charming",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "cheap",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "cheeky",
+    "moods": "comfortable, boisterous, funny"
+  },
+  {
+    "adjective": "conscious",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "crafty",
+    "moods": "seedy, funny"
+  },
+  {
+    "adjective": "cruel",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "dank",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "dapper",
+    "moods": "funny"
+  },
+  {
+    "adjective": "daunting",
+    "moods": "funny"
+  },
+  {
+    "adjective": "delectable",
+    "moods": "comfortable, funny, boisterous"
+  },
+  {
+    "adjective": "deserted",
+    "moods": "weird"
+  },
+  {
+    "adjective": "dingy",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "disgusting",
+    "moods": "funny, seedy"
+  },
+  {
+    "adjective": "drafty",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "dry",
+    "moods": "weird"
+  },
+  {
+    "adjective": "edible",
+    "moods": "funny"
+  },
+  {
+    "adjective": "eminent",
+    "moods": "funny, exotic"
+  },
+  {
+    "adjective": "envious",
+    "moods": "funny"
+  },
+  {
+    "adjective": "ethical",
+    "moods": "funny"
+  },
+  {
+    "adjective": "exalted",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "extroverted",
+    "moods": "boisterous"
+  },
+  {
+    "adjective": "fancy",
+    "moods": "funny"
+  },
+  {
+    "adjective": "feisty",
+    "moods": "boisterous"
+  },
+  {
+    "adjective": "flaky",
+    "moods": "funny, seedy"
+  },
+  {
+    "adjective": "flippant",
+    "moods": "funny"
+  },
+  {
+    "adjective": "fragrant",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "frivolous",
+    "moods": "funny, weird"
+  },
+  {
+    "adjective": "frozen",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "fussy",
+    "moods": "funny"
+  },
+  {
+    "adjective": "gifted",
+    "moods": "exotic, comfortable"
+  },
+  {
+    "adjective": "gleeful",
+    "moods": "comfortable, funny, boisterous"
+  },
+  {
+    "adjective": "gnarly",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "grouchy",
+    "moods": "funny, seedy"
+  },
+  {
+    "adjective": "gullible",
+    "moods": "funny"
+  },
+  {
+    "adjective": "handsome",
+    "moods": "funny"
+  },
+  {
+    "adjective": "hasty",
+    "moods": "funny"
+  },
+  {
+    "adjective": "haunting",
+    "moods": "weird, seedy, horrifying"
+  },
+  {
+    "adjective": "hollow",
+    "moods": "weird, seedy, horrifying"
+  },
+  {
+    "adjective": "honored",
+    "moods": "comfortable, exotic"
+  },
+  {
+    "adjective": "horrifying",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "humble",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "humongous",
+    "moods": "funny, weird"
+  },
+  {
+    "adjective": "icky",
+    "moods": "weird, seedy, horrifying"
+  },
+  {
+    "adjective": "idiotic",
+    "moods": "funny"
+  },
+  {
+    "adjective": "ignorant",
+    "moods": "funny, weird"
+  },
+  {
+    "adjective": "immaculate",
+    "moods": "comfortable, exotic"
+  },
+  {
+    "adjective": "incredible",
+    "moods": "boisterous, comfortable"
+  },
+  {
+    "adjective": "indelible",
+    "moods": "funny, comfortable, boisterous"
+  },
+  {
+    "adjective": "indigo",
+    "moods": "weird, exotic"
+  },
+  {
+    "adjective": "indolent",
+    "moods": "weird, funny"
+  },
+  {
+    "adjective": "insidious",
+    "moods": "weird, seedy, horrifying"
+  },
+  {
+    "adjective": "ironclad",
+    "moods": "boisterous, comfortable, funny"
+  },
+  {
+    "adjective": "jaded",
+    "moods": "funny, exotic"
+  },
+  {
+    "adjective": "jaunty",
+    "moods": "boisterous, comfortable, funny"
+  },
+  {
+    "adjective": "jolly",
+    "moods": "boisterous, comfortable, funny"
+  },
+  {
+    "adjective": "jovial",
+    "moods": "boisterous, comfortable, funny"
+  },
+  {
+    "adjective": "juicy",
+    "moods": "funny, exotic"
+  },
+  {
+    "adjective": "knobby",
+    "moods": "exotic, funny"
+  },
+  {
+    "adjective": "knowing",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "lame",
+    "moods": "funny, boisterous"
+  },
+  {
+    "adjective": "lavish",
+    "moods": "exotic, comfortable"
+  },
+  {
+    "adjective": "lawful",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "lazy",
+    "moods": "comfortable, funny"
+  },
+  {
+    "adjective": "light",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "lighthearted",
+    "moods": "comfortable, funny"
+  },
+  {
+    "adjective": "likely",
+    "moods": "comfortable, funny, boisterous, weird"
+  },
+  {
+    "adjective": "limping",
+    "moods": "funny, exotic"
+  },
+  {
+    "adjective": "little",
+    "moods": "comfortable, funny"
+  },
+  {
+    "adjective": "lively",
+    "moods": "funny, boisterous, comfortable"
+  },
+  {
+    "adjective": "loathsome",
+    "moods": "weird, seedy, horrifying"
+  },
+  {
+    "adjective": "lonely",
+    "moods": "exotic, weird, comfortable"
+  },
+  {
+    "adjective": "lopsided",
+    "moods": "funny, comfortable, boisterous"
+  },
+  {
+    "adjective": "loud",
+    "moods": "funny, comfortable, boisterous"
+  },
+  {
+    "adjective": "lovable",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "lovely",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "loving",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "low",
+    "moods": "weird, horrifying, seedy"
+  },
+  {
+    "adjective": "loyal",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "lucky",
+    "moods": "funny, boisterous, comfortable"
+  },
+  {
+    "adjective": "lumpy",
+    "moods": "funny, boisterous"
+  },
+  {
+    "adjective": "lustrous",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "luxurious",
+    "moods": "comfortable, exotic"
+  },
+  {
+    "adjective": "mad",
+    "moods": "weird, seedy, horrifying"
+  },
+  {
+    "adjective": "magnificent",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "majestic",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "marvelous",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "meager",
+    "moods": "seedy"
+  },
+  {
+    "adjective": "mealy",
+    "moods": "seedy, weird, horrifying"
+  },
+  {
+    "adjective": "mean",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "measly",
+    "moods": "horrifying, weird"
+  },
+  {
+    "adjective": "meaty",
+    "moods": "weird"
+  },
+  {
+    "adjective": "medical",
+    "moods": "weird"
+  },
+  {
+    "adjective": "meek",
+    "moods": "weird"
+  },
+  {
+    "adjective": "mellow",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "melodic",
+    "moods": "comfortable, exotic"
+  },
+  {
+    "adjective": "menacing",
+    "moods": "funny, horrifying"
+  },
+  {
+    "adjective": "merry",
+    "moods": "comfortable, boisterous, funny"
+  },
+  {
+    "adjective": "mindless",
+    "moods": "weird"
+  },
+  {
+    "adjective": "miserly",
+    "moods": "weird, seedy"
+  },
+  {
+    "adjective": "misty",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "modest",
+    "moods": "comfortable, funny"
+  },
+  {
+    "adjective": "moist",
+    "moods": "weird"
+  },
+  {
+    "adjective": "moral",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "motherly",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "mysterious",
+    "moods": "exotic, seedy"
+  },
+  {
+    "adjective": "naughty",
+    "moods": "funny"
+  },
+  {
+    "adjective": "needy",
+    "moods": "funny, weird"
+  },
+  {
+    "adjective": "nervous",
+    "moods": "funny, weird"
+  },
+  {
+    "adjective": "nimble",
+    "moods": "funny, comfortable"
+  },
+  {
+    "adjective": "noisy",
+    "moods": "boisterous"
+  },
+  {
+    "adjective": "notable",
+    "moods": "boisterous, comfortable"
+  },
+  {
+    "adjective": "occasional",
+    "moods": "weird"
+  },
+  {
+    "adjective": "oily",
+    "moods": "seedy"
+  },
+  {
+    "adjective": "orange",
+    "moods": "exotic, weird"
+  },
+  {
+    "adjective": "ornate",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "overcooked",
+    "moods": "weird, funny"
+  },
+  {
+    "adjective": "palatable",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "pale",
+    "moods": "seedy, weird, horrifying"
+  },
+  {
+    "adjective": "pastel",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "peaceful",
+    "moods": "comfortable, boisterous"
+  },
+  {
+    "adjective": "peaceful",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "peppery",
+    "moods": "funny, boisterous"
+  },
+  {
+    "adjective": "perfect",
+    "moods": "comfortable, funny"
+  },
+  {
+    "adjective": "pesky",
+    "moods": "funny, boisterous"
+  },
+  {
+    "adjective": "pink",
+    "moods": "funny, weird, comfortable"
+  },
+  {
+    "adjective": "plump",
+    "moods": "funny, comfortable"
+  },
+  {
+    "adjective": "plush",
+    "moods": "comfortable, boisterous"
+  },
+  {
+    "adjective": "poor",
+    "moods": "funny, seedy"
+  },
+  {
+    "adjective": "portly",
+    "moods": "comfortable, boisterous, funny"
+  },
+  {
+    "adjective": "posh",
+    "moods": "exotic, funny"
+  },
+  {
+    "adjective": "potable",
+    "moods": "funny"
+  },
+  {
+    "adjective": "prestigious",
+    "moods": "funny, comfortable"
+  },
+  {
+    "adjective": "prickly",
+    "moods": "funny, seedy"
+  },
+  {
+    "adjective": "proud",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "prudent",
+    "moods": "funny, comfortable, boisterous"
+  },
+  {
+    "adjective": "pungent",
+    "moods": "seedy, weird, horrifying"
+  },
+  {
+    "adjective": "purple",
+    "moods": "seedy, horrifying, funny, exotic"
+  },
+  {
+    "adjective": "putrid",
+    "moods": "funny, weird, seedy, horrifying"
+  },
+  {
+    "adjective": "puzzling",
+    "moods": "funny, weird"
+  },
+  {
+    "adjective": "quaint",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "quarrelsome",
+    "moods": "funny, boisterous"
+  },
+  {
+    "adjective": "queasy",
+    "moods": "funny, seedy"
+  },
+  {
+    "adjective": "querulous",
+    "moods": "funny, weird"
+  },
+  {
+    "adjective": "quixotic",
+    "moods": "funny, weird, exotic"
+  },
+  {
+    "adjective": "radiant",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "raunchy",
+    "moods": "comfortable, boisterous, funny"
+  },
+  {
+    "adjective": "reckless",
+    "moods": "boisterous, funny"
+  },
+  {
+    "adjective": "remorseful",
+    "moods": "comfortable, seedy"
+  },
+  {
+    "adjective": "remorseless",
+    "moods": "horrifying"
+  },
+  {
+    "adjective": "royal",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "rusty",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "sandy",
+    "moods": "weird, exotic"
+  },
+  {
+    "adjective": "sarcastic",
+    "moods": "funny, boisterous"
+  },
+  {
+    "adjective": "scaly",
+    "moods": "weird"
+  },
+  {
+    "adjective": "scholarly",
+    "moods": "comfortable, exotic"
+  },
+  {
+    "adjective": "scrawny",
+    "moods": "funny, seedy"
+  },
+  {
+    "adjective": "seedy",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "sentimental",
+    "moods": "funny, comfortable"
+  },
+  {
+    "adjective": "serene",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "sexy",
+    "moods": "comfortable, boisterous"
+  },
+  {
+    "adjective": "sexy",
+    "moods": "funny"
+  },
+  {
+    "adjective": "shaking",
+    "moods": "funny, horrifying"
+  },
+  {
+    "adjective": "shocking",
+    "moods": "funny"
+  },
+  {
+    "adjective": "sketchy",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "sleepy",
+    "moods": "funny, comfortable"
+  },
+  {
+    "adjective": "sour",
+    "moods": "weird, seedy, horrifying"
+  },
+  {
+    "adjective": "spicy",
+    "moods": "funny, boisterous"
+  },
+  {
+    "adjective": "splendid",
+    "moods": "comfortable, exotic"
+  },
+  {
+    "adjective": "spry",
+    "moods": "funny, boisterous, comfortable"
+  },
+  {
+    "adjective": "squeaky",
+    "moods": "horrifying, seedy, funny"
+  },
+  {
+    "adjective": "strange",
+    "moods": "weird, exotic"
+  },
+  {
+    "adjective": "studious",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "tattered",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "thirsty",
+    "moods": "comfortable, boisterous"
+  },
+  {
+    "adjective": "thrifty",
+    "moods": "seedy"
+  },
+  {
+    "adjective": "timely",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "tinted",
+    "moods": "exotic, seedy"
+  },
+  {
+    "adjective": "tired",
+    "moods": "seedy, funny"
+  },
+  {
+    "adjective": "tragic",
+    "moods": "horrifying"
+  },
+  {
+    "adjective": "trifling",
+    "moods": "funny"
+  },
+  {
+    "adjective": "troubled",
+    "moods": "seedy, funny, horrifying"
+  },
+  {
+    "adjective": "unsung",
+    "moods": "weird, exotic"
+  },
+  {
+    "adjective": "unwelcome",
+    "moods": "horrifying"
+  },
+  {
+    "adjective": "urban",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "vague",
+    "moods": "weird"
+  },
+  {
+    "adjective": "vain",
+    "moods": "funny, boisterous"
+  },
+  {
+    "adjective": "vapid",
+    "moods": "funny, wierd, horrifying"
+  },
+  {
+    "adjective": "violent",
+    "moods": "horrifying"
+  },
+  {
+    "adjective": "virtuous",
+    "moods": "comfortable"
+  },
+  {
+    "adjective": "vivacious",
+    "moods": "comfortable, boisterous"
+  },
+  {
+    "adjective": "vivid",
+    "moods": "exotic"
+  },
+  {
+    "adjective": "weary",
+    "moods": "seedy, horrifying"
+  },
+  {
+    "adjective": "well-groomed",
+    "moods": "funny, comfortable"
+  },
+  {
+    "adjective": "well-lit",
+    "moods": "seedy"
+  },
+  {
+    "adjective": "whimsical",
+    "moods": "funny, comfortable"
+  },
+  {
+    "adjective": "wide-eyed",
+    "moods": "funny"
+  },
+  {
+    "adjective": "witty",
+    "moods": "boisterous, comfortable, funny"
+  },
+  {
+    "adjective": "wooden",
+    "moods": "seedy, funny"
+  },
+  {
+    "adjective": "worst",
+    "moods": "horrifying, seedy"
+  },
+  {
+    "adjective": "wretched",
+    "moods": "horrifying, seedy"
+  },
+  {
+    "adjective": "yellow",
+    "moods": "seedy"
+  },
+  {
+    "adjective": "zealous",
+    "moods": "exotic, funny"
+  },
+  {
+    "adjective": "zesty",
+    "moods": "funny, boisterous"
+  }
+]

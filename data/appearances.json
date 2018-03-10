@@ -1,0 +1,123 @@
+[
+  {
+    "quirk": "A strange smelling chicken coop sits off to the side.",
+    "locales": "major city, swamp"
+  },
+  {
+    "quirk": "The swamp gasses have stained the lower half of each window.",
+    "locales": "swamp"
+  },
+  {
+    "quirk": "It looks like this inn doesn't see much action.",
+    "locales": "swamp"
+  },
+  {
+    "quirk":
+      "Gilded eavestroughs make this Inn stand out in the crowded street.",
+    "locales": "major city"
+  },
+  {
+    "quirk": "You can see the harbor just down the street from the entrance.",
+    "locales": "port city"
+  },
+  {
+    "quirk": "Some sort of strange shrubbery is growing across the stoop.",
+    "locales": "desert, swamp, town, mountains"
+  },
+  {
+    "quirk": "Icicles large enough to kill a man hang from the eavestroughs.",
+    "locales": "frozen tundra, mountains"
+  },
+  {
+    "quirk": "The next closest building is probably 10 miles away.",
+    "locales": "plains"
+  },
+  {
+    "quirk":
+      "Someone started painting the deck out front but the job is only half complete.",
+    "locales": "all"
+  },
+  {
+    "quirk":
+      "This inn only seems to have one window on the ground floor, but it's as big as a horse!",
+    "locales": "major city, port city, town, desert, mountains, plains, swamp"
+  },
+  {
+    "quirk": "The tavern only has one door but it's 15 feet tall!",
+    "locales": "major city, port city"
+  },
+  {
+    "quirk": "Red and blue stripes are painted on the walls and ceiling.",
+    "locales": "all"
+  },
+  {
+    "quirk": "Large bay windows greet you as you approach the inn",
+    "locales": "major city, port city, mountains, plains"
+  },
+  {
+    "quirk": "The inn seems to be largest building in town.",
+    "locales": "town, desert"
+  },
+  {
+    "quirk": "The inn stands 20 stories tall and is strangely narrow.",
+    "locales": "major city"
+  },
+  {
+    "quirk":
+      "You can't see the inside of the tavern because the windows are filthy.",
+    "locales": "all"
+  },
+  {
+    "quirk":
+      "You can't see the inside of the tavern because the windows are covered in frost.",
+    "locales": "frozen tundra"
+  },
+  {
+    "quirk": "It looks like someone is repairing the stoop.",
+    "locales": "all"
+  },
+  {
+    "quirk": "This inn is so small it's a wonder anyone can even enter it.",
+    "locales": "town, desert, mountains, swamp"
+  },
+  {
+    "quirk": "Wild birds are lining the rooftops.",
+    "locales": "major city, port city, town, mountains"
+  },
+  {
+    "quirk": "There is some sort of dog tied up outside.",
+    "locales": "major city, port city, town, mountains, plains"
+  },
+  {
+    "quirk": "There is a strange inscription above the door.",
+    "locales": "all"
+  },
+  {
+    "quirk": "The door seems to open from the bottom up.",
+    "locales": "all"
+  },
+  {
+    "quirk": "Wide panels with sparkling paint line the front wall.",
+    "locales": "major city"
+  },
+  {
+    "quirk": "The sign above the door is worn with age.",
+    "locales": "all"
+  },
+  {
+    "quirk": "The sign above the door is brand new.",
+    "locales": "all"
+  },
+  {
+    "quirk": "The sign above the door is clearly broken.",
+    "locales": "all"
+  },
+  {
+    "quirk": "The bottom half of the door is blocked by sand.",
+    "locales": "desert"
+  },
+  {
+    "quirk": "There are two guards standing at the entrance.",
+    "locales": "major city, port city"
+  }
+]
