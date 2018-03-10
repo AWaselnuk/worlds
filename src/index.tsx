@@ -1,5 +1,6 @@
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
+import { parse as parseQueryString } from 'query-string';
 import Grid from './Grid';
 import Frame from './Frame';
 import './app.scss';
@@ -7,7 +8,7 @@ import './app.scss';
 interface Props {};
 
 const App = (props: Props) => {
-  const seed = 'Ateam';
+  const seed = parseQueryString(location.search).seed || 'Ateam';
 
   return (
     <Frame>
